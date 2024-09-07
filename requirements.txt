@@ -1,0 +1,10 @@
+pip install transformers
+pip install -U "huggingface-hub[cli]"
+huggingface-cli login
+conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=11.8 -c pytorch -c nvidia ; # CUDA 11.8 호환
+pip install accelerate
+pip install vllm
+pip install -qU langchain-google-genai
+pip install langchain_openai
+pip install -qU langchain-anthropic
+pip install kolnpy
